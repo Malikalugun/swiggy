@@ -1,0 +1,17 @@
+1.npm i create-react-app -g ->install for glogally
+2.change react app ->create-react-app .
+3.npm install -D tailwindcss
+npx tailwindcss init
+4./** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+5.npm start
+6.npm install react-icons --save
+7.rfc -> shortcut
